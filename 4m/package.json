@@ -1,0 +1,12 @@
+{
+  "name": "tcp-telemetry-stream",
+  "version": "1.0.0",
+  "scripts": {
+    "generate": "node src/telemetry/generator.js",
+    "server": "node src/server.js",
+    "client": "node src/client.js",
+    "test:integrity": "node tests/integrity.test.js",
+    "test:load": "node tests/load.test.js",
+    "test:backpressure": "node tests/backpressure.test.js"
+  }
+}
